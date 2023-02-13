@@ -1,0 +1,250 @@
+body {
+  height: 4082px;
+  max-width: 1440px;
+  left: -1113px;
+  top: -1865px;
+  border-radius: 0px;
+  background: #E5E5E5;
+}
+
+.ul-isvaizda {
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.main-navigation {
+  gap: 30px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.button {
+  background-color: rgb(100, 123, 100);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  min-width: 100px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+a.button1 {
+  background-color: rgb(100, 123, 100);
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  min-width: 100px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.turinys1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.straipsnis {
+  margin-left: 50px;
+  justify-self: center;
+  max-width: 500px;
+}
+
+.image-1 {
+  justify-self: center;
+  max-width: 500px;
+}
+
+.turinys2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  margin-left: 50px;
+}
+
+.blokeliai {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.remelis {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.trip {
+  padding: 30px;
+}
+
+.su-fonu {
+  background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+}
+
+.turinys3 {
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  margin-left: 50px;
+}
+
+.iquet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-top: 30px;
+}
+
+.iquet-item {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.antraste1 {
+  text-transform: uppercase;
+  color: rgb(243, 181, 98);
+  text-transform: uppercase;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+}
+
+.pavad-centruotas {
+  align-content: center;
+  text-align: center;
+  margin: 0px;
+}
+
+.antraste2 {
+  color: rgb(100, 123, 100);
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 110%;
+  /* or 45px */
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.sviesus {
+  background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.zalias {
+  background: rgb(100, 123, 100);
+  color: white;
+}
+
+.antraste-m {
+  text-transform: uppercase;
+}
+
+.turinys4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.sliauziklis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.rodykles {
+  display: flex;
+  align-items: center;
+}
+
+.korteles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin-left: 50px;
+}
+
+.kortele {
+  width: 360px;
+  max-height: 420px;
+  background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), #FFFFFF;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.korteles-vidus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footeris {
+  background: rgb(240, 220, 197);
+  padding: 40px;
+}
+
+.apacia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.apatinis {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.footer2 {
+  padding: 20px;
+}
+
+.footer1 {
+  padding: 20px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 132%;
+  /* or 18px */
+  letter-spacing: 0.04em;
+  /* Gray 2 */
+  color: #4F4F4F;
+}/*# sourceMappingURL=style.css.map */
